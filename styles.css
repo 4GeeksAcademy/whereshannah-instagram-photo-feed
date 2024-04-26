@@ -1,27 +1,2 @@
-/* Custom CSS for Instagram Clone */
 
-/* Hide list view by default */
-.list-view {
-    display: none;
-  }
-  
-  /* Show list view when corresponding radio button is checked */
-  #list-view:checked ~ .container .list-view {
-    display: block;
-  }
-  
-  /* Hide grid view when list view is checked */
-  #list-view:checked ~ .container .grid-view {
-    display: none;
-  }
-  
-  /* Show grid view when corresponding radio button is checked */
-  #grid-view:checked ~ .container .grid-view {
-    display: block;
-  }
-  
-  /* Hide list view when grid view is checked */
-  #grid-view:checked ~ .container .list-view {
-    display: none;
-  }
   
